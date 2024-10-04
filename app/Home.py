@@ -7,7 +7,7 @@ def main():
     st.title("Welcome to CultivateChoice Guide")
 
     st.markdown("This is a personalized advisor to optimal farming! Discover the perfect crops for your land, receive tailored recommendations, and cultivate success with ease.")
-    st.image("images\Home.jpg", caption="Crop Recommendation", use_column_width=True)
+    st.image("images/Home.jpg", caption="Crop Recommendation", use_column_width=True)
     st.write("")
     st.write("")
     st.write("")
@@ -29,14 +29,14 @@ def main():
     st.header("Dataset")
     
     # Add image
-    st.image("images\Dataset.png", caption="First Few rows of Crop Recommendation Dataset", use_column_width=True)
+    st.image("images/Dataset.png", caption="First Few rows of Crop Recommendation Dataset", use_column_width=True)
     
     st.markdown("""
     The dataset used for training the machine learning models contains information about various crops and their optimal conditions for growth. It includes features such as nutrient levels (N, P, K), temperature, humidity, pH, and rainfall, along with the corresponding crop labels.
 
     By analyzing this dataset, the models can learn patterns and relationships between different factors and crop types, enabling accurate predictions and recommendations for farmers.
     """)
-    st.image("images\Models.png", caption="Accuracy Comparison of various models on Crop Recommendation Dataset", use_column_width=True)
+    st.image("images/Models.png", caption="Accuracy Comparison of various models on Crop Recommendation Dataset", use_column_width=True)
     
 
 if __name__ == '__main__':
